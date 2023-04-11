@@ -15,6 +15,8 @@ const Hero = () => {
         <div className={styles.hero_content}>
           <Logo alt="Logo" className={styles.hero_logo} />
         </div>
+
+        
       </section>
     </>
   );

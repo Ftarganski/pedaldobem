@@ -8,6 +8,12 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Bluffton";
+  src: url("../public/fonts/Bluffton.otf");
+  font-style: normal;
+}
+
 :root {
   --main-color: #165689;
   --second-color: #fc5200;
@@ -20,5 +26,3 @@
   --doubleHeight: 200vh;
   --fullWidth: 100vw;
 }
-
-

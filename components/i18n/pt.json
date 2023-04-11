@@ -1,9 +1,13 @@
 {
   "common": {
     "company": "Pedal do Bem",
-   
+
+    "project": "Projeto",
+    "about": "Sobre",
+    "doit": "Participe",
+    "faq": "Dúvidas",
+
     "copyright": "Todos os direitos reservados. ",
     "create by": "Desenvolvido por Francis Targanski - FT Dev."
- 
-  }  
+  }
 }

@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import styles from "../../styles/pdb.module.css";
 import "../i18n/i18n";
 import { useTranslation } from "react-i18next";
+import InstagramIcon from "@mui/icons-material/Instagram";
 
 
 const Navbar = () => {
@@ -34,22 +35,27 @@ const Navbar = () => {
           </li>
           <li>
             <a href="#project">
-              <p className={`${styles.nav_button} ${scrolled ? styles.scrolled : ""}`}>O projeto</p>
+              <p className={`${styles.nav_button} ${scrolled ? styles.scrolled : ""}`}>{t("project")}</p>
             </a>
           </li>
           <li>
             <a href="#about">
-              <p className={`${styles.nav_button} ${scrolled ? styles.scrolled : ""}`}>Sobre</p>
+              <p className={`${styles.nav_button} ${scrolled ? styles.scrolled : ""}`}>{t("about")}</p>
             </a>
           </li>
           <li>
             <a href="#doit">
-              <p className={`${styles.nav_button} ${scrolled ? styles.scrolled : ""}`}>Faça Parte</p>
+              <p className={`${styles.nav_button} ${scrolled ? styles.scrolled : ""}`}>{t("doit")}</p>
             </a>
           </li>
           <li>
-            <a href="#contact">
-              <p className={`${styles.nav_button} ${scrolled ? styles.scrolled : ""}`}>Contato</p>
+            <a href="#faq">
+              <p className={`${styles.nav_button} ${scrolled ? styles.scrolled : ""}`}>{t("faq")}</p>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/opedaldobem/" target="blank">
+              <p className={`${styles.nav_button} ${scrolled ? styles.scrolled : ""}`}><InstagramIcon/></p>
             </a>
           </li>
 
