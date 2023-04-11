@@ -8,7 +8,7 @@ const Project = () => {
 
   return (
     <>
-      <section id="project">
+      <section id="project" className={`${styles.project} ${styles.fullHeigth}`}>
 
       </section>    
     </>

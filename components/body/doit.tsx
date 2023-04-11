@@ -8,7 +8,7 @@ const DoIt = () => {
 
   return (
     <>
-      <section id="doit">
+      <section id="doit" className={`${styles.doit} ${styles.fullHeigth}`}>
 
       </section>    
     </>

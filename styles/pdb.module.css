@@ -1,0 +1,92 @@
+/* Commom */
+
+.fullHeigth {
+  height: var(--fullHeigth);
+}
+.halfHeight {
+  height: var(--halfHeight);
+}
+
+.doubleHeight {
+  height: var(--doubleHeight);
+}
+
+/* Navbar */
+
+.navbar {
+  width: var(--fullWidth);
+  background-color: var(--second-color);
+  height: var(--tenHeigth);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 10vh;
+  transition: background-color 0.9s ease;
+  z-index: 999;
+
+}
+
+.navbar.scrolled{
+    background-color: var(--main-color);
+    opacity: 0.95;
+}
+
+.navbar > ul {
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+  align-items: center;
+}
+
+.nav_button {
+  color: var(--white-color);
+  font-family: "Rubik";
+  font-size: large;
+}
+
+
+/* SectionHero */
+
+.hero {
+  background-color: var(--white-color);
+  color: var(--white-color);
+}
+
+.hero_content{
+    padding-top: var(--tenHeigth);
+    box-sizing: border-box;
+    height: 100%;
+    width: var(--fullWidth);
+    display: flex;
+    align-items: center;
+}
+
+.hero_logo{
+    height: calc(var(--fullHeigth)/1.5);
+    width: var(--fullWidth);
+}
+
+/* SectionBody */
+
+.about {
+  background-color: var(--second-color);
+  color: var(--white-color);
+}
+
+.project {
+  background-color: var(--main-color);
+  color: var(--white-color);
+}
+
+.doit {
+  background-color: var(--second-color);
+  color: var(--white-color);
+}
+
+/* SectionFooter */
+
+.contact {
+  background-color: var(--black-color);
+  color: var(--white-color);
+}

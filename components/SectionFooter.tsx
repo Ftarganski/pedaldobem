@@ -1,7 +1,7 @@
 import React from "react";
 import Contact from "./footer/contact";
 
-const Footer = () => {
+const SectionFooter = () => {
   return (
     <>
       <Contact />
@@ -9,4 +9,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default SectionFooter;

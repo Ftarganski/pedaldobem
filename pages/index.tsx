@@ -1,14 +1,14 @@
 import React from "react";
-import Hero from "@/components/SectionHero";
-import Body from "@/components/SectionBody";
-import Footer from "@/components/SectionFooter";
+import SectionHero from "@/components/SectionHero";
+import SectionBody from "@/components/SectionBody";
+import SectionFooter from "@/components/SectionFooter";
 
 export default function Home() {
   return (
     <>
-      <Hero />
-      <Body />
-      <Footer />
+      <SectionHero />
+      <SectionBody />
+      <SectionFooter />
     </>
   );
 }

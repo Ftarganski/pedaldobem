@@ -2,17 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-/* @font-face {
-  font-family: "Contrax";
-  src: url("../public/fonts/conthrax-sb.otf");
+@font-face {
+  font-family: "Rubik";
+  src: url("../public/fonts/Rubik-Regular.ttf");
   font-style: normal;
 }
-
-@font-face {
-  font-family: "Montserrat";
-  src: url("../public/fonts/montserrat.ttf");
-  font-style: normal;
-} */
 
 :root {
   --main-color: #165689;
@@ -20,4 +14,11 @@
   --white-color: white;
   --black-color: black;
   --transparente-color: transparent;
+  --tenHeigth: 10vh;
+  --halfHeight: 50vh;
+  --fullHeigth: 100vh;
+  --doubleHeight: 200vh;
+  --fullWidth: 100vw;
 }
+
+

@@ -8,7 +8,7 @@ const Contact = () => {
 
   return (
     <>
-      <section id="contact">
+      <section id="contact" className={`${styles.contact} ${styles.fullHeigth}`}>
        
       </section>
     </>
