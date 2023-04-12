@@ -32,7 +32,7 @@ const Navbar = () => {
     <>
       <nav className={`${styles.navbar} ${scrolled ? styles.scrolled : ""}`}>
         <ul>
-        <li>
+          <li>
             <a href="#hero">
             <LogoHex className={styles.nav_logo} alt="Logo Pedal do Bem"/>
             </a>
@@ -62,7 +62,6 @@ const Navbar = () => {
               <p className={`${styles.nav_button} ${scrolled ? styles.scrolled : ""}`}><InstagramIcon/></p>
             </a>
           </li>
-
         </ul>
       </nav>
     </>
