@@ -13,7 +13,7 @@
 }
 
 .special_h1 {
-  font-size: 15em;
+  font-size: 20vw;
   font-family: "Bluffton";
   color: var(--second-color);
   text-align: center;
@@ -101,6 +101,11 @@
   justify-content: space-around;
   height: 100%;
   align-items: center;
+}
+
+.nav_logo{
+    height: auto;
+    width: 30%;
 }
 
 .nav_button {

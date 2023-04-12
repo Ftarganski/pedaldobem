@@ -4,6 +4,8 @@ import styles from "../../styles/pdb.module.css";
 import "../i18n/i18n";
 import { useTranslation } from "react-i18next";
 import InstagramIcon from "@mui/icons-material/Instagram";
+import LogoOrange from "../../public/images/logo_hex_orange.svg";
+import LogoBlue from "../../public/images/logo_hex_blue.svg"
 
 
 const Navbar = () => {
@@ -24,13 +26,15 @@ const Navbar = () => {
     };
   }, [scrolled]);
 
+  const LogoHex = scrolled ? LogoOrange : LogoBlue;
+
   return (
     <>
       <nav className={`${styles.navbar} ${scrolled ? styles.scrolled : ""}`}>
         <ul>
         <li>
             <a href="#hero">
-              <p className={`${styles.nav_button} ${scrolled ? styles.scrolled : ""}`}>LOGO</p>
+            <LogoHex className={styles.nav_logo} alt="Logo Pedal do Bem"/>
             </a>
           </li>
           <li>
